@@ -50,7 +50,7 @@ resource "aws_iam_policy" "ecs-execution-policy" {
                 "secretsmanager:GetSecretValue"
             ],
             "Resource": [
-                "arn:aws:secretsmanager:*:566881612178:secret:SPLUNK_PASSWORD*"
+                "arn:aws:secretsmanager:*:*:secret:SPLUNK_PASSWORD*"
             ]
         }
     ]
