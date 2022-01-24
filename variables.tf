@@ -25,3 +25,11 @@ variable "availability_zones" {
 variable "server-name" {
   default = "splunk"
 }
+
+variable "aws_key" {
+  
+}
+
+variable "aws_secret" {
+  
+}

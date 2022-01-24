@@ -1,7 +1,7 @@
 provider "aws" {
   region = local.region
-  profile = var.aws_profile
-  
+  access_key = var.aws_key
+  secret_key = var.aws_secret
 }
 
 data "aws_caller_identity" "current" {}
